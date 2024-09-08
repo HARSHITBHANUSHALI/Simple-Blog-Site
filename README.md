@@ -12,29 +12,6 @@
 - **Responsive Design**: Adaptable layout that works seamlessly on various devices and screen sizes.
 - **JSON Server Integration**: Backend is simulated using JSON Server, allowing dynamic interaction with blog data.
 
-## 🗂️ Project Structure
-
-```plaintext
-.
-├── public
-├── src
-│   ├── components          # Reusable UI components
-│   │   ├── BlogDetails.js   # Component for viewing blog details
-│   │   ├── BlogList.js      # Component for listing blogs
-│   │   ├── CreateBlog.js    # Form component for creating a blog
-│   │   └── Header.js        # Navigation header component
-│   ├── pages               # Page-level components
-│   │   ├── Home.js          # Home page displaying all blogs
-│   │   └── Create.js        # Page for creating new blogs
-│   ├── App.js              # Main application component
-│   ├── index.js            # Entry point for the React app
-│   └── styles              # Styling files (CSS)
-│       └── App.css         # Main app styling
-├── db.json                 # Mock backend database (JSON Server)
-├── package.json            # Project dependencies and scripts
-└── README.md               # Project documentation (this file)
-```
-
 ## 🚀 Getting Started
 
 Follow these steps to get the project up and running on your local machine:
